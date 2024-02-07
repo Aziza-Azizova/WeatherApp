@@ -1,0 +1,49 @@
+:root[data-theme="light"] {
+    --bg: #fff;
+    --logo: #4793FF;
+    --text: #000;
+    --cart-bg: #4793FF33;
+    --content-bg: #fff;
+}
+
+:root[data-theme="dark"] {
+    --bg: #0D1117;
+    --logo: #4793FF;
+    --text: #fff;
+    --cart-bg: #2E3035;
+    --content-bg: #4F4F4F;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: Montserrat;
+    background: var(--bg);
+}
+
+button,
+input {
+    border: none;
+    font-family: Montserrat;
+}
+
+.container {
+    max-width: 1230px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
