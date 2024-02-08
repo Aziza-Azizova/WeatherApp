@@ -1,10 +1,11 @@
 import Header from "./components/Header"
+import ContextProvider from "./context/Context"
 
 function App() {
   return (
-    <div>
+    <ContextProvider>
       <Header/>
-    </div>
+    </ContextProvider>
   )
 }
 
