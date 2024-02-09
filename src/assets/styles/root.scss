@@ -1,4 +1,4 @@
-:root[data-theme="light"] {
+:root[data-theme="light"]{
     --bg: #fff;
     --logo: #4793FF;
     --text: #000;
@@ -6,7 +6,7 @@
     --content-bg: #fff;
 }
 
-:root[data-theme="dark"] {
+:root[data-theme="dark"]{
     --bg: #0D1117;
     --logo: #4793FF;
     --text: #fff;
@@ -16,32 +16,31 @@
 
 
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-a {
+a{
     text-decoration: none;
 }
 
-ul {
+ul{
     list-style: none;
 }
 
-body {
+body{
     font-family: Montserrat;
     background: var(--bg);
 }
 
-button,
-input {
+button, input{
     border: none;
     font-family: Montserrat;
 }
 
-.container {
+.container{
     max-width: 1030px;
     width: 100%;
     margin: 0 auto;
