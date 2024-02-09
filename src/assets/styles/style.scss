@@ -1,12 +1,12 @@
-.header {
-    &__content {
+.header{
+    &__content{
         display: flex;
         align-items: center;
         justify-content: space-between;
         margin-top: 50px;
     }
 
-    &__left {
+    &__left{
         background: var(--content-bg);
         box-shadow: 2px 5px 25px 3px #b4b4b497;
         border-radius: 20px;
@@ -40,18 +40,18 @@
     }
 }
 
-.nav {
+.nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
 
-    .logo {
+    .logo{
         display: flex;
         align-items: center;
         column-gap: 20px;
 
-        span {
+        span{
             color: #4793FF;
             font-size: 25px;
             font-weight: 700;
